@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7904D40D1C6843D2001B1034 /* MZDateTimeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7904D40C1C6843D2001B1034 /* MZDateTimeCollectionView.m */; };
+		7904D4101C684414001B1034 /* MZDateTimeCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7904D40F1C684414001B1034 /* MZDateTimeCollectionViewLayout.m */; };
+		7904D4141C68451F001B1034 /* MZDateTimeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7904D4121C68451F001B1034 /* MZDateTimeCollectionViewCell.m */; };
+		7904D4151C68451F001B1034 /* MZDateTimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7904D4131C68451F001B1034 /* MZDateTimeCollectionViewCell.xib */; };
+		79326C6D1C674B9B00793C4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79326C6C1C674B9B00793C4A /* main.m */; };
+		79326C701C674B9B00793C4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79326C6F1C674B9B00793C4A /* AppDelegate.m */; };
+		79326C731C674B9B00793C4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79326C721C674B9B00793C4A /* ViewController.m */; };
+		79326C761C674B9B00793C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79326C741C674B9B00793C4A /* Main.storyboard */; };
+		79326C781C674B9B00793C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79326C771C674B9B00793C4A /* Assets.xcassets */; };
+		79326C7B1C674B9B00793C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79326C791C674B9B00793C4A /* LaunchScreen.storyboard */; };
+		79326C851C674CF300793C4A /* MZDateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79326C831C674CF300793C4A /* MZDateSelectViewController.m */; };
+		79326C861C674CF300793C4A /* MZDateSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79326C841C674CF300793C4A /* MZDateSelectViewController.xib */; };
+		79326C891C674D4700793C4A /* MZDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79326C881C674D4700793C4A /* MZDate.swift */; };
+		79326C9A1C6765C900793C4A /* MZTimeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79326C981C6765C900793C4A /* MZTimeSelectViewController.m */; };
+		79326C9B1C6765C900793C4A /* MZTimeSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79326C991C6765C900793C4A /* MZTimeSelectViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7904D40B1C6843D2001B1034 /* MZDateTimeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDateTimeCollectionView.h; sourceTree = "<group>"; };
+		7904D40C1C6843D2001B1034 /* MZDateTimeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDateTimeCollectionView.m; sourceTree = "<group>"; };
+		7904D40E1C684414001B1034 /* MZDateTimeCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDateTimeCollectionViewLayout.h; sourceTree = "<group>"; };
+		7904D40F1C684414001B1034 /* MZDateTimeCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDateTimeCollectionViewLayout.m; sourceTree = "<group>"; };
+		7904D4111C68451F001B1034 /* MZDateTimeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDateTimeCollectionViewCell.h; sourceTree = "<group>"; };
+		7904D4121C68451F001B1034 /* MZDateTimeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDateTimeCollectionViewCell.m; sourceTree = "<group>"; };
+		7904D4131C68451F001B1034 /* MZDateTimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MZDateTimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		79326C681C674B9B00793C4A /* DateSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79326C6C1C674B9B00793C4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79326C6E1C674B9B00793C4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79326C6F1C674B9B00793C4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79326C711C674B9B00793C4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79326C721C674B9B00793C4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79326C751C674B9B00793C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79326C771C674B9B00793C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79326C7A1C674B9B00793C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79326C7C1C674B9B00793C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79326C821C674CF300793C4A /* MZDateSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDateSelectViewController.h; sourceTree = "<group>"; };
+		79326C831C674CF300793C4A /* MZDateSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDateSelectViewController.m; sourceTree = "<group>"; };
+		79326C841C674CF300793C4A /* MZDateSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MZDateSelectViewController.xib; sourceTree = "<group>"; };
+		79326C871C674D4700793C4A /* DateSelector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateSelector-Bridging-Header.h"; sourceTree = "<group>"; };
+		79326C881C674D4700793C4A /* MZDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDate.swift; sourceTree = "<group>"; };
+		79326C971C6765C900793C4A /* MZTimeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimeSelectViewController.h; sourceTree = "<group>"; };
+		79326C981C6765C900793C4A /* MZTimeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimeSelectViewController.m; sourceTree = "<group>"; };
+		79326C991C6765C900793C4A /* MZTimeSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MZTimeSelectViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79326C651C674B9B00793C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79326C5F1C674B9B00793C4A = {
+			isa = PBXGroup;
+			children = (
+				79326C6A1C674B9B00793C4A /* DateSelector */,
+				79326C691C674B9B00793C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79326C691C674B9B00793C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79326C681C674B9B00793C4A /* DateSelector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79326C6A1C674B9B00793C4A /* DateSelector */ = {
+			isa = PBXGroup;
+			children = (
+				79326C6E1C674B9B00793C4A /* AppDelegate.h */,
+				79326C6F1C674B9B00793C4A /* AppDelegate.m */,
+				79326C881C674D4700793C4A /* MZDate.swift */,
+				79326C711C674B9B00793C4A /* ViewController.h */,
+				79326C721C674B9B00793C4A /* ViewController.m */,
+				79326C821C674CF300793C4A /* MZDateSelectViewController.h */,
+				79326C831C674CF300793C4A /* MZDateSelectViewController.m */,
+				79326C841C674CF300793C4A /* MZDateSelectViewController.xib */,
+				79326C971C6765C900793C4A /* MZTimeSelectViewController.h */,
+				79326C981C6765C900793C4A /* MZTimeSelectViewController.m */,
+				79326C991C6765C900793C4A /* MZTimeSelectViewController.xib */,
+				7904D40B1C6843D2001B1034 /* MZDateTimeCollectionView.h */,
+				7904D40C1C6843D2001B1034 /* MZDateTimeCollectionView.m */,
+				7904D40E1C684414001B1034 /* MZDateTimeCollectionViewLayout.h */,
+				7904D40F1C684414001B1034 /* MZDateTimeCollectionViewLayout.m */,
+				7904D4111C68451F001B1034 /* MZDateTimeCollectionViewCell.h */,
+				7904D4121C68451F001B1034 /* MZDateTimeCollectionViewCell.m */,
+				7904D4131C68451F001B1034 /* MZDateTimeCollectionViewCell.xib */,
+				79326C741C674B9B00793C4A /* Main.storyboard */,
+				79326C771C674B9B00793C4A /* Assets.xcassets */,
+				79326C791C674B9B00793C4A /* LaunchScreen.storyboard */,
+				79326C7C1C674B9B00793C4A /* Info.plist */,
+				79326C6B1C674B9B00793C4A /* Supporting Files */,
+				79326C871C674D4700793C4A /* DateSelector-Bridging-Header.h */,
+			);
+			path = DateSelector;
+			sourceTree = "<group>";
+		};
+		79326C6B1C674B9B00793C4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79326C6C1C674B9B00793C4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79326C671C674B9B00793C4A /* DateSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79326C7F1C674B9B00793C4A /* Build configuration list for PBXNativeTarget "DateSelector" */;
+			buildPhases = (
+				79326C641C674B9B00793C4A /* Sources */,
+				79326C651C674B9B00793C4A /* Frameworks */,
+				79326C661C674B9B00793C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateSelector;
+			productName = DateSelector;
+			productReference = 79326C681C674B9B00793C4A /* DateSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79326C601C674B9B00793C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chen Yue";
+				TargetAttributes = {
+					79326C671C674B9B00793C4A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 79326C631C674B9B00793C4A /* Build configuration list for PBXProject "DateSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79326C5F1C674B9B00793C4A;
+			productRefGroup = 79326C691C674B9B00793C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79326C671C674B9B00793C4A /* DateSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79326C661C674B9B00793C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7904D4151C68451F001B1034 /* MZDateTimeCollectionViewCell.xib in Resources */,
+				79326C7B1C674B9B00793C4A /* LaunchScreen.storyboard in Resources */,
+				79326C781C674B9B00793C4A /* Assets.xcassets in Resources */,
+				79326C861C674CF300793C4A /* MZDateSelectViewController.xib in Resources */,
+				79326C9B1C6765C900793C4A /* MZTimeSelectViewController.xib in Resources */,
+				79326C761C674B9B00793C4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79326C641C674B9B00793C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79326C891C674D4700793C4A /* MZDate.swift in Sources */,
+				79326C731C674B9B00793C4A /* ViewController.m in Sources */,
+				79326C9A1C6765C900793C4A /* MZTimeSelectViewController.m in Sources */,
+				7904D40D1C6843D2001B1034 /* MZDateTimeCollectionView.m in Sources */,
+				79326C701C674B9B00793C4A /* AppDelegate.m in Sources */,
+				7904D4141C68451F001B1034 /* MZDateTimeCollectionViewCell.m in Sources */,
+				79326C851C674CF300793C4A /* MZDateSelectViewController.m in Sources */,
+				79326C6D1C674B9B00793C4A /* main.m in Sources */,
+				7904D4101C684414001B1034 /* MZDateTimeCollectionViewLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79326C741C674B9B00793C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79326C751C674B9B00793C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79326C791C674B9B00793C4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79326C7A1C674B9B00793C4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79326C7D1C674B9B00793C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79326C7E1C674B9B00793C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79326C801C674B9B00793C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DateSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtzendo.DateSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DateSelector/DateSelector-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79326C811C674B9B00793C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DateSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtzendo.DateSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DateSelector/DateSelector-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79326C631C674B9B00793C4A /* Build configuration list for PBXProject "DateSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79326C7D1C674B9B00793C4A /* Debug */,
+				79326C7E1C674B9B00793C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79326C7F1C674B9B00793C4A /* Build configuration list for PBXNativeTarget "DateSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79326C801C674B9B00793C4A /* Debug */,
+				79326C811C674B9B00793C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79326C601C674B9B00793C4A /* Project object */;
+}
